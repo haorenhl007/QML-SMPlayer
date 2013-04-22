@@ -1,0 +1,12 @@
+#Project
+*.user
+*.cache
+
+#Translations
+*.qm
+
+#Linux
+*~
+
+# KDE
+.directory
