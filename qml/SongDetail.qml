@@ -320,7 +320,6 @@ Item {
         id: toolBarControlSong
         anchors {
             bottom: rect.bottom
-            bottomMargin: 60
         }
     }
 }

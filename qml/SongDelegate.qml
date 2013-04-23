@@ -61,7 +61,7 @@ Component {
             switch (page) {
                 case 'topPage':
                     searchBox.visible = false
-                    listView.anchors.topMargin = 60
+                    listView.anchors.topMargin = 0
                     break
                 case 'playlistPage':
                     deleteAllButton.visible = false
@@ -81,7 +81,7 @@ Component {
             switch (page) {
                 case 'topPage':
                     searchBox.visible = true
-                    listView.anchors.topMargin = 120
+                    listView.anchors.topMargin = 60
                     break
                 case 'playlistPage':
                     deleteAllButton.visible = true

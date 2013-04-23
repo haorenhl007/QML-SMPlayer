@@ -33,7 +33,6 @@ Window {
         id: page
 
         FoldersHeader {
-            y: 50
             visible: player.activeAdsFolder
         }
 
@@ -41,7 +40,7 @@ Window {
             id: listView
             anchors {
                 fill: parent
-                topMargin: 80
+                topMargin: 30
                 bottomMargin: page.listViewBottomMargin
             }
             model: folderListModel
